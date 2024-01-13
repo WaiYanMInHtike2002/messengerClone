@@ -8,12 +8,6 @@ body {
   font-family: Poppins, sans-serif;
   min-width: 500px;
 }
-/* .midSubTwo {
-  display: none;
-}
-.bottomSubTwo {
-  display: none;
-} */
 .header {
   display: flex;
   justify-content: space-between;
@@ -202,8 +196,6 @@ input {
   }
   .midLeft {
     width: 100%;
-    /* margin: 0 auto;
-    text-align: center; */
   }
   .midLeftSub {
     width: 60%;
