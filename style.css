@@ -158,6 +158,7 @@ input {
   transition: all 1s ease;
   display: flex;
   flex-direction: column;
+  display:none;
 }
 .features {
   width: 100%;
@@ -171,9 +172,6 @@ input {
   margin-bottom: 20px;
   display: flex;
   align-items: center;
-}
-.forFlexPlay {
-  display: none;
 }
 .subway {
   display: none;
