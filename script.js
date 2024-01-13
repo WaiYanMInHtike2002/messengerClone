@@ -12,14 +12,14 @@ thirdTag.addEventListener("click", () => {
     lineTwoTag.style.opacity = 1;
     lineThreeTag.classList.remove("lineThreeSub");
     thirdTag.classList.remove("thirdSub");
-    forFlexTag.classList.add("forFlexPlay");
+    forFlexTag.classList.add("forFlex");
     mainTag.classList.remove("subway");
   } else {
     lineOneTag.classList.add("lineOneSub");
     lineTwoTag.style.opacity = 0;
     lineThreeTag.classList.add("lineThreeSub");
     thirdTag.classList.add("thirdSub");
-    forFlexTag.classList.remove("forFlexPlay");
+    forFlexTag.classList.remove("forFlex");
     mainTag.classList.add("subway");
   }
 });
